@@ -1,7 +1,6 @@
 {
   "name": "pulse",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.27.4",
+    "browser-sync": "^2.27.5",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.3.0",
@@ -17,12 +16,22 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^6.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.1.1"
+    "gulp-sass": "^4.1.1",
+    "sass": "^1.37.5"
   },
   "browserslist": [
     "last 1 version",
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YevheniiIvanov/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YevheniiIvanov/Portfolio/issues"
+  },
+  "homepage": "https://github.com/YevheniiIvanov/Portfolio#readme",
+  "description": ""
 }

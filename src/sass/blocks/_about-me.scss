@@ -9,7 +9,10 @@
         row-gap: 40px;
     }
     &__photo{
-        grid-row: 1/3;
+        margin-top: 70px;
+        width: 120%;
+        grid-row: 1/4;
+        transform: rotate(90deg);
     }
     &__descr{
         padding-top: 6px;
