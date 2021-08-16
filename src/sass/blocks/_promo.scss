@@ -2,9 +2,18 @@
     min-height: 100vh;
     position: relative;
     background: url("../img/main__bg.jpg") no-repeat 50%/cover;
-    padding-top: 206px;
+    padding-top: 250px;
+    &__bg-shadow{
+        background-color:rgba(0,0,0,.3);
+        height:100%;
+        position:absolute;
+        width:100%;
+        top:0;
+        left:0;
+    }
     &__title{
-        width: 535px;
+        position: relative;
+        width: 720px;
         margin-top: 10px;
     }
     &__subtitle{
@@ -14,6 +23,7 @@
         @include before_circle;
     }
     &__btn{
+        position: relative;
         margin-top: 10px;
         display: flex;
         width: 250px;
@@ -21,7 +31,7 @@
         justify-content: space-between;
     }
     &__link{
-        color: #000000;
+        color: #ffffff;
         font-size: 14px;
         font-weight: bold;
         &:hover{
@@ -30,3 +40,4 @@
         }
     }
 }
+
