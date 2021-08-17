@@ -20,6 +20,9 @@
     height: 3px;
     background-color: $main-color;
     margin-top: 25px;
+    &__contact{
+        margin-top: 0;
+    }
 }
 
 @import "blocks/promo";
@@ -32,3 +35,4 @@
 @import "blocks/resume";
 @import "blocks/skills";
 @import "blocks/portfolio";
+@import "blocks/contact";
