@@ -20,7 +20,7 @@
         margin-top: 25px;
     }
     &__wrapper{
-        padding: 60px 65px 0 65px;
+        padding: 0 65px 0 65px;
         display: grid;
         grid-template-columns: repeat(2, 425px);
         column-gap: 135px;
@@ -96,6 +96,8 @@
                 position: absolute;
                 left: 14px;
                 top: 14px;
+                width: 25px;
+                height: 25px;
             }
         }
         &-location{
