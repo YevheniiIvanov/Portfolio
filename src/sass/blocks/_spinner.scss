@@ -1,0 +1,11 @@
+.spinner{
+    display: block;
+    &__img{
+        display: block;
+        margin: 0 auto;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

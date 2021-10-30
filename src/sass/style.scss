@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -36,3 +40,8 @@
 @import "blocks/skills";
 @import "blocks/portfolio";
 @import "blocks/contact";
+@import "blocks/change";
+@import "blocks/modal";
+@import "blocks/spinner";
+@import "blocks/pageup";
+@import "blocks/media";

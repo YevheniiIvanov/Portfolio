@@ -4,10 +4,9 @@
     background: url("../img/main__bg.jpg") no-repeat 50%/cover;
     padding-top: 250px;
     &__bg-shadow{
-        background-color:rgba(0,0,0,.3);
-        height:100%;
+        background-color:rgba(0,0,0,.1);
+        min-height: 100vh;
         position:absolute;
-        width:100%;
         top:0;
         left:0;
     }
@@ -29,6 +28,9 @@
         width: 250px;
         align-items: center;
         justify-content: space-between;
+        a{
+            scroll-behavior: smooth;
+        }
     }
     &__link{
         color: #ffffff;
