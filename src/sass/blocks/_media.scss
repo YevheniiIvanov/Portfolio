@@ -29,10 +29,7 @@
     }
     .portfolio{
         &__wrapper{
-            grid-template-columns: repeat(auto-fit, 220px);
-            grid-auto-rows: 280px;
-            justify-content: space-around;
-            row-gap: 35px;
+            row-gap: 4px;
         }
     }
     .contact {
@@ -89,33 +86,40 @@
     }
     .portfolio{
         &__wrapper{
-            grid-template-columns: repeat(2, 350px);
-            grid-auto-rows: 280px;
-            justify-content: space-around;
-            row-gap: 35px;
+            grid-template-columns: repeat(2, 1fr);
             .marvel{
                 grid-column: 1 / 2;
-                grid-row: 1 / 3;
-            }
-            .employee{
-                grid-column: 2 / 3;
                 grid-row: 1 / 2;
             }
+            .employee{
+                height: 100%;
+                grid-column: 2 / 3;
+                grid-row: 4 / 5;
+            }
             .pulse{
+                img{
+                    object-fit: cover;
+                }
                 grid-column: 1 / 3;
                 grid-row: 3 / 4;
             }
             .food{
-                grid-column: 2 / 3;
-                grid-row: 2 / 3;
-            }
-            .uber{
+                img{
+                    object-fit: cover;
+                }
                 grid-column: 1 / 2;
                 grid-row: 4 / 5;
             }
-            .wordpress{
+            .hero{
+                img{
+                    object-fit: cover;
+                }
                 grid-column: 2 / 3;
-                grid-row: 4 / 5;
+                grid-row: 1 / 2;
+            }
+            .coffee{
+                grid-column: 1 / 3;
+                grid-row: 2 / 3;
             }
         }
     }
@@ -186,7 +190,41 @@
     }
     .portfolio{
         &__wrapper{
-            grid-template-columns: repeat(2, 260px);
+            grid-template-columns: 1fr;
+            grid-auto-rows: 280px;
+            .marvel{
+                grid-column: 1 / 1;
+                grid-row: 1 / 2;
+            }
+            .coffee{
+                img{
+                    object-fit: cover;
+                }
+                grid-column: 1 / 1;
+                grid-row: 2 / 3;
+            }
+            .hero{
+                img{
+                    object-fit: cover;
+                }
+                grid-column: 1 / 1;
+                grid-row: 3 / 4;
+            }
+            .employee{
+                grid-column: 1 / 1;
+                grid-row: 4 / 5;
+            }
+            .pulse{
+                img{
+                    object-fit: cover;
+                }
+                grid-column: 1 / 1;
+                grid-row: 5 / 6;
+            }
+            .food{
+                grid-column: 1 / 1;
+                grid-row: 6 / 7;
+            }
         }
     }
     .contact {
@@ -247,12 +285,7 @@
     }
     .portfolio{
         &__wrapper{
-            grid-template-columns: 1fr;
             gap: 15px;
-            .marvel, .employee, .pulse, .food, .uber, .wordpress{
-                grid-column: unset;
-                grid-row: unset;
-            }
         }
     }
     .contact {

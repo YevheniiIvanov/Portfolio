@@ -1,5 +1,9 @@
 .skills{
     padding-top: 126px;
+    &__img{
+        width: 70px;
+        height: 70px;
+    }
     &__wrapper{
         margin-top: 60px;
         display: grid;
